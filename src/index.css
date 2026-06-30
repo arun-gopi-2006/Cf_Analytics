@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Codeforces rank colors */
+.cf-newbie { color: #8c8c8c; font-weight: 700; }
+.cf-pupil { color: #008000; font-weight: 700; }
+.cf-specialist { color: #03a89e; font-weight: 700; }
+.cf-expert { color: #0000ff; font-weight: 700; }
+.cf-candidate { color: #aa00aa; font-weight: 700; }
+.cf-master { color: #ff8c00; font-weight: 700; }
+.cf-grandmaster { color: #ff0000; font-weight: 700; }
+
+/* Custom scrollbars */
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border-radius: 5ch;
+}
